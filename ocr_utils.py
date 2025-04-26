@@ -31,17 +31,25 @@ def perform_ocr(image):
 
 def extract_text_from_file(file_path):
     """
-    Extract text from an image or PDF file.
+    Extract text from an image, PDF file, or text file.
     
     Args:
-        file_path: Path to the image or PDF file
+        file_path: Path to the image, PDF, or text file
         
     Returns:
         Extracted text as a string
     """
     file_ext = os.path.splitext(file_path)[1].lower()
     
-    if file_ext == '.pdf':
+    # Handle text files directly
+    if file_ext in ['.txt', '.text']:
+        try:
+            with open(file_path, 'r', encoding='utf-8') as file:
+                return file.read()
+        except Exception as e:
+            raise ValueError(f"Error reading text file: {e}")
+    
+    elif file_ext == '.pdf':
         # Convert PDF to images
         images = convert_pdf_to_images(file_path)
         

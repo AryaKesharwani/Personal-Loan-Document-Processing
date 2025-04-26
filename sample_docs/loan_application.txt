@@ -1,0 +1,47 @@
+PERSONAL LOAN APPLICATION
+
+Application Date: 05/15/2023
+
+BORROWER INFORMATION:
+---------------------------
+Borrower's Name: John A. Smith
+Address: 123 Main Street, Apt 4B, San Francisco, CA 94105
+Phone: (415) 555-7890
+Email: johnsmith@email.com
+SSN: 123-45-6789
+Date of Birth: 09/22/1985
+
+EMPLOYMENT INFORMATION:
+---------------------------
+Current Employer: Bay Area Tech Solutions
+Position: Senior Software Engineer
+Years at Current Job: 4
+Annual Income: $125,000
+
+LOAN DETAILS:
+---------------------------
+Loan Amount: $25,000
+Loan Type: Personal Unsecured
+Loan Purpose: Home Renovation
+Loan Term: 5 years
+Interest Rate: 7.5%
+
+FINANCIAL INFORMATION:
+---------------------------
+Monthly Housing Payment: $2,800
+Other Loan Payments: $450
+Credit Card Debt: $3,200
+Credit Score: 740
+
+REFERENCES:
+---------------------------
+Reference 1: Mary Johnson, (415) 555-1234
+Reference 2: Robert Williams, (415) 555-9876
+
+I certify that the information provided in this application is true and correct to the best of my knowledge.
+
+____________________________
+Signature of Borrower
+
+____________________________
+Date 

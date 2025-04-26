@@ -1,0 +1,64 @@
+MORTGAGE LOAN AGREEMENT
+
+Application Date: 08/15/2023
+
+BORROWER INFORMATION:
+---------------------------
+Borrower's Name: Maria R. Garcia
+Address: 789 Oak Avenue, Portland, OR 97205
+Phone: (503) 555-1234
+Email: maria.garcia@email.com
+SSN: 987-65-4321
+
+CO-BORROWER INFORMATION:
+---------------------------
+Co-Borrower's Name: Thomas J. Garcia
+Address: Same as Borrower
+Phone: (503) 555-5678
+Email: thomas.garcia@email.com
+SSN: 876-54-3210
+
+PROPERTY INFORMATION:
+---------------------------
+Property Address: 456 Pine Street, Portland, OR 97204
+Property Type: Single-Family Residence
+Estimated Value: $450,000
+Year Built: 1995
+
+LOAN DETAILS:
+---------------------------
+Loan Amount: $360,000
+Loan Type: Fixed-Rate Mortgage
+Interest Rate: 4.25%
+Loan Term: 30 years
+Monthly Payment (Principal & Interest): $1,771.30
+Estimated Monthly Escrow (Taxes & Insurance): $450.00
+Total Monthly Payment: $2,221.30
+
+COLLATERAL:
+---------------------------
+The property described above shall serve as collateral for this mortgage loan.
+
+LENDER INFORMATION:
+---------------------------
+Lender Name: Pacific Northwest Mortgage Company
+Address: 100 Financial Center, Suite 500, Portland, OR 97201
+Loan Officer: William Thompson
+Contact: (503) 555-9000
+
+CLOSING INFORMATION:
+---------------------------
+Estimated Closing Date: 09/20/2023
+Estimated Closing Costs: $12,500
+Down Payment: $90,000 (20%)
+
+The undersigned Borrower(s) certify that the information provided is true and correct to the best of their knowledge.
+
+____________________________
+Signature of Borrower
+
+____________________________
+Signature of Co-Borrower
+
+____________________________
+Date 

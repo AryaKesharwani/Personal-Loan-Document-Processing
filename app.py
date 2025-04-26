@@ -124,7 +124,7 @@ def main():
     if app_mode == "Upload Document":
         st.header("Upload a Loan Document")
         
-        uploaded_file = st.file_uploader("Choose a file", type=["pdf", "png", "jpg", "jpeg", "tiff"])
+        uploaded_file = st.file_uploader("Choose a file", type=["pdf", "png", "jpg", "jpeg", "tiff", "txt"])
         
         if uploaded_file is not None:
             # Display file details
@@ -159,8 +159,12 @@ def main():
                     if file_ext == '.pdf':
                         images = convert_pdf_to_images(temp_file_path)
                         st.image(images[0], caption="First Page", use_column_width=True)
-                    else:
+                    elif file_ext in ['.png', '.jpg', '.jpeg', '.tiff']:
                         st.image(Image.open(temp_file_path), caption="Document Image", use_column_width=True)
+                    elif file_ext == '.txt':
+                        with st.expander("Text File Content", expanded=True):
+                            with open(temp_file_path, 'r') as f:
+                                st.code(f.read())
             
             # Clean up the temporary file
             try:
@@ -209,6 +213,13 @@ def main():
                     st.image(Image.open(selected_file), caption="Document Image", use_column_width=True)
                 except Exception as e:
                     st.error(f"Error loading image: {e}")
+            elif file_ext == '.txt':
+                with st.expander("Text File Content", expanded=True):
+                    try:
+                        with open(selected_file, 'r') as f:
+                            st.code(f.read())
+                    except Exception as e:
+                        st.error(f"Error loading text file: {e}")
             
             # Add a button to process the document
             if st.button("Process Sample Document"):
